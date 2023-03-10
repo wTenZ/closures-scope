@@ -20,11 +20,13 @@ function getGlobal(){
 getGlobal();
 
 
+// testing
 function sumWithClosure(firstNum) {
 
     return function (secondNum) {
-      return firstNum + secondNum
+      return res = firstNum + secondNum
     }
   }
 
 sumWithClosure(1)(4)
+console.log(res)
